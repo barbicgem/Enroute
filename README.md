@@ -10,7 +10,7 @@ We used multiple different sources for our backend code. Our intial version of t
 
 For Depth Perception, we started to implement [Depth Perception](https://github.com/shubham0204/Realtime_MiDaS_Depth_Estimation_Android/tree/master) but ran into multiple and consistent dependency issues which we were not able to resolve. Our progress on this front can be seen in the Enroute 2 file. 
 
-We used [an example](https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/object_detection/android) application which had a built-in ML model, and an interface for live object-detection and object detection on input video. We changed this app to run with our user interface, integrating the outputs of the model with our UI. This code can be found [here](https://github.com/barbicgem/android.git)
+We used [an example](https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/object_detection/android) application which had a built-in ML model, and an interface for live object-detection and object detection on input video. We changed this app to run with our user interface, integrating the outputs of the model with our UI. This code can be found [here](https://github.com/barbicgem/android.git).
 
 The new code created across our files includes all of the front-end, user interface files, functions for drawing bounding-boxes and filtering out redundant bounding-boxes, as well as the pipelines for navigation in the app. 
 
